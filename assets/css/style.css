@@ -37,6 +37,8 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* End Header CSS*/
+/*Footer CSS*/
 footer {
     background: #fce138;
     width: 100%;
@@ -55,4 +57,9 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+/* End Footer CSS*/
+/* Hero Section CSS*/
+section {
+    padding: 60px;
 }
