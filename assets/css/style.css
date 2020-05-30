@@ -27,7 +27,7 @@ header a {
 }
 header nav {
     float: right;
-    margin: 7px 0px;
+    margin: 7px 0;
 }
 header nav ul li {
     display: inline;
