@@ -125,21 +125,20 @@ footer a {
     font-size: 16px;
 }
 /*Hero Section End*/
+/*What we do Start*/
+
 section {
     padding: 60px;
-}
-/*What we do Start*/
-.intro {
-    text-align: center;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -153,11 +152,11 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /*What we do End*/
 /*What you do start*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .steps div {
@@ -182,7 +181,7 @@ section {
 /* Meet the trainers*/
 /*section trainers*/
 .trainers {
-    text-align: center;
+
 }
 /*article trainers*/
 .trainer {
@@ -201,12 +200,7 @@ section {
     float: left;
     width: 65%;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -223,7 +217,6 @@ section {
 /*trainer section end*/
 /* Contact section start */
 .contact {
-    text-align: center;
     background: #024e76
 }
 .contact h2 {
@@ -254,4 +247,16 @@ section {
 }
 .contact-info a {
     color: #fce138
+}
+/*End Contact Section */
+
+/* Generic rules start*/
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.flex-row {
+    display: flex;
 }
