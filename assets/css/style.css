@@ -236,6 +236,20 @@ section {
     font-size: 17px;
 }
 /*trainer section end*/
+
+/*Service Plan start*/
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+/*Service Plan End*/
+
 /* Contact section start */
 .contact {
     background: #024e76
