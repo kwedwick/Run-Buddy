@@ -240,6 +240,8 @@ section {
 /*Service Plan start*/
 .service-grid-container {
     display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 60px 60px 60px;
 }
 .service-grid-item {
     width: 200px;
